@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>menu</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div class="card2">
+        <div class="jumbotron1">
+            <div class="nav1">
+                    <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="menu.html">MENU</a></li>
+                    <li> <a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    <div class="menu-cont">
+        <a href="#po">ORDER HERE</a>
+        <div class="row">
+            <div class ="col-sm-12">
+                     <h2>MENU</h2>
+                </div>
+        </div>
+
+      
+        <img src="images/Pizza20180216.jpg" alt="menupht" width="50%">
+        <div id="po">
+          <h2>PLEASE PLACE YOUR ORDER HERE.</h2>
+      </div> 
+      <div class="container">
+      <form>
+        <div class="form-group">
+            <label for="pizzaSize">Choose your size</label>
+            <select class="form-control" id="size" style="background-color: transparent">
+                    <option hidden>Choose your size</option>
+              <option>Large Ksh 1000</option>
+              <option>Standard Ksh 800</option>
+              <option>Small Ksh 600</option>
+            </select>
+        </div>
+        <div class="form-group">
+               <label for="pizzaName">Choose your type</label>
+                <select class="form-control" id="name" style="background-color: transparent">
+                        <option hidden>Choose your type</option>
+                  <option>Meat</option>
+                  <option>Chicken</option>
+                  <option>Vegetables</option>
+                </select>
+        </div>
+        <div class="form-group">
+            <label for="pizzaFlavour">Choose your flavour</label>
+             <select class="form-control" id="flavour" style="background-color: transparent">
+                    <option hidden>Choose your flavour</option>
+               <option style="text-decoration:underline ">Meat</option>
+               <option>Hawaiian</option>
+               <option>Mexican Fiesta</option>
+               <option>Four Seasons</option>
+               <option>Club</option>
+               <option>Something Meaty</option>
+               <option style="text-decoration-line: underline">Chicken</option>
+               <option>BBQ Chicken</option>
+               <option>Sweet&Sour Chicken</option>
+               <option>Chicken&Mushroom</option>
+               <option>Periperi Chicken</option>
+               <option>Tikka Chicken</option>
+               <option>Chicken O'Rello</option>
+               <option style="text-decoration-line: underline">Vegeterian</option>
+               <option>Margheritta</option>
+               <option>OriginalVeggie</option>
+               <option>3 Cheese</option>
+             </select>
+     </div>
+        <div class="form-group">
+            <label for="Crust">Choose your Crust</label>
+             <select class="form-control" id="crust" style="background-color: transparent" width="auto">
+                    <option hidden>Choose your crust</option>
+               <option>Thin Crust Ksh 150</option>
+               <option>Thick Crust Ksh 200</option>
+               <option>Deep Crust Ksh 250</option>
+             </select>
+     </div>
+     <div class="multiselect">
+        <div class="selectBox" onclick="showCheckboxes()">
+                <label for="toppings">Choose your toppings</label>
+          <select class="form-control" style="background-color: transparent">
+            <option>Choose your toppings</option>
+          </select>
+          <div class="overSelect"></div>
+        </div>
+        <div id="checkboxes">
+          <label for="one">
+            <input type="checkbox" id="one" />baggles</label>
+          <label for="two">
+            <input type="checkbox" id="two" />cheese</label>
+          <label for="three">
+            <input type="checkbox" id="three" />Extra Chicken</label>
+        </div>
+      </div> 
+      <br>
+      <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="CHECKOUT">
+        <br><br>
+      <div id="textPrice">
+        <p id="pz">Pizza Size</p>
+        <p id="ty">Type</p>
+        <p id="fl">Flavour</p>
+        <p id="cr">Crust</p>
+        <p id="tp">Topping</p>
+        <p id="tc">Total Cost</p>
+        
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-md-6">
+       <button id="order" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">ORDER</button>
+    </div>
+    <div class="col-md-6">
+            <button id="delivery" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">DELIVERY</button>
+
+    </div>
+
+    </div>
+        
+</form>
+    </div>
+    
+ 
+  
+        </div>
+       
+</div>
+    </div>
+    
+    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
