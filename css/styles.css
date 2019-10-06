@@ -2,27 +2,26 @@
     margin:0;
     padding:0;
 }
-body{
-    background-image: url(../images/bg2.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+.card1{
+    background-image: url("../images/wd2.jpeg");
+  
+    
 }
 .jumbotron{
     background: rgba(73, 14, 14, 0.4);
-    height:50%;
+    height:20px;
 }
 .jumbotron h3{
-    color:white;
+    color:blue;
     text-align:center;
-    font-size: 40px;
+    float: left;
+    font-size: 20px;
     font-weight:700;
+    margin-top:0px;
 }
-nav{
-    widows: 100%;
-    height:100px;
-    background: rgba(92, 139, 29, 0.4);
-    margin-top:20px;
-}
+ nav{
+    float: right;
+} 
  ul{
     text-align:right;
     margin-left:40px;
@@ -32,7 +31,9 @@ nav{
  ul li{
     list-style: none;
     display: inline-block;
-    padding:40px;
+    padding-top:0px;
+    padding-left:10px;
+    padding-right:10px;
     line-height: 50px;
 
 
@@ -49,4 +50,121 @@ ul li a{
 ul li a:hover{
     color:red;
 }
+.wrapper{
+    margin:0 auto;
+    width:805px;
+    background: rgba(36, 32, 32, 0.4);
+    text-align:center;
+}
+.wrapper img{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.menuh{
+    text-align:center;
+    margin-top:20px;
+}
+ul li button{
+    margin-bottom:40px;
+}
+.carousel-item>img{
+    text-align:center;
+    width:1px;
+    padding-left: 60px;
+    padding-right:60px; 
+    padding-bottom:20px;
+    
+}
+/* menu styling */
+.card2{
+    background-image: url("../images/wd1.jpg");
+}
+.jumbotron1{
+    background-color: gray;
+    
+    
+}
+.nav1{
+    text-align:center;
+    background:rgba(24, 23, 23, 0.4);
+    padding-top:20px;
 
+}
+.menu-cont{
+    text-align: center;
+}
+.menu-cont h2{
+    color:white;
+}
+.menu-cont a{
+    font-size: 30px;
+    font-weight:700;
+    margin-left: 70%;
+    text-decoration: underline;
+    text-shadow: 1px 0px 20px #ffd200;
+   -webkit-transition: 1s linear 0s;
+   -moz-transition: 1s linear 0s;
+   -o-transition: 1s linear 0s;
+   transition: 1s linear 0s;
+   outline: 0 none;
+   animation: glow 1s ease-in-out infinite alternate; 
+}
+
+.menu-cont a:hover{
+    color:white;
+}
+
+#po{
+    margin-top:20px;
+
+}
+.multiselect {
+    width: 100%; 
+
+  } 
+  
+   .selectBox {
+    position: relative;
+  } 
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+  }
+  
+  #checkboxes label {
+    display: block;
+  }
+  
+  #checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+  select{
+      width:50%;
+  }
+  label{
+      color:yellow;
+  }
+  #textPrice{
+    box-sizing: border-box;
+    padding:10px;
+    border: 1px solid #ff8000;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 3px black;
+    font-size: 25px;
+    color: white;    
+  }
+ 
