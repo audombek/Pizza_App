@@ -4,15 +4,15 @@
 }
 .card1{
     background-image: url("../images/wd2.jpeg");
-  
-    
+  background-repeat: no-repeat;
+  background-size: cover;  
 }
 .jumbotron{
     background: rgba(73, 14, 14, 0.4);
-    height:20px;
+    height:30px;
 }
 .jumbotron h3{
-    color:blue;
+    color:black;
     text-align:center;
     float: left;
     font-size: 20px;
@@ -74,6 +74,11 @@ ul li button{
     padding-right:60px; 
     padding-bottom:20px;
     
+}
+.footer{
+    background-color: black;
+    color:white;
+    text-align: center;
 }
 /* menu styling */
 .card2{
@@ -164,7 +169,44 @@ ul li button{
     border: 1px solid #ff8000;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 3px black;
-    font-size: 25px;
-    color: white;    
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;    
   }
+  #checkboxes p{
+      color:white;
+      font-weight:700;
+  }
+  .card3{
+    background-size:cover;
+    text-align: center;
+    padding-bottom:100px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+.frm1 h4{
+    margin-top:50px;
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    font-size:40px;
+}
+.frm1 p{
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    margin:20px;
+}
+.frm1 form textarea{
+    margin-top:20px;
+    width:800px;
+}
+.frm1 form input{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    color:white;
+}
+
  
