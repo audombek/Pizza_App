@@ -38,105 +38,54 @@
              <label for="pizzaSize">Choose your size</label>
              <select class="form-control" id="size" style="background-color: transparent">
                     <option hidden>Choose your size</option>
-               <option>Large Ksh 1000</option>
-              <option>Standard Ksh 800</option>
-              <option>Small Ksh 600</option>
+               <option>Large </option>
+              <option>Standard</option>
+              <option>Small</option>
               </select>
             </div>
             <div class="form-group">
                     <label for="Crust">Choose your Crust</label>
                     <select class="form-control" id="crust" style="background-color: transparent" width="auto">
                         <option hidden>Choose your crust</option>
-                        <option>Crispy Crust Ksh 300</option>
-                        <option>Stuffed Crust Ksh 350</option>
-                        <option>Glutten-free Crust Ksh 400</option>
+                        <option>Crispy Crust </option>
+                        <option>Stuffed Crust </option>
+                        <option>Glutten-free Crust</option>
                  </select>
-                 <div class="form-group">
-                        <label for="Topping">Choose your topping</label>
-                        <select class="form-control" id="topping" style="background-color: transparent" width="auto">
-                            <option hidden>Choose your topping</option>
-                            <option>Large:Chicken ksh 500</option>
-                            <option>Large:Meat ksh 450</option>
-                            <option>Large:Vegetables ksh 400</option>
-                            <!-- <option>Standard:Chicken ksh 450</option>
-                            <option>Standard:Meat ksh 400</option>
-                            <option>Standard:Vegetables ksh 300</option>
-                            <option>Small:Chicken ksh 350</option>
-                            <option>Small:Meat ksh 300</option>
-                            <option>Small:Vegetables ksh 250</option> -->
-                     </select>
-                     <br><br>
-            
-           <!-- <div class="multiselect">
-              <div class="selectBox" onclick="showCheckboxes()">
-                 <label for="toppings">Choose your toppings</label>
-                  <select class="form-control" style="background-color:transparent">
-                   <option>Choose your toppings depending on size</option>
-                  </select>
-                 <div class="overSelect"></div>
-             </div>
-               <div id="checkboxes">
-                   <div class="row">
-                       <div class="col-md-4">
-                           <p>Large</p>
-                    <label for="one">
-                      <input type="checkbox" id="one1" />Chicken-sh 500
-                    </label>
-                    <label for="two">
-                      <input type="checkbox" id="two" />Meat-sh 450
-                   </label>
-                   <label for="three">
-                     <input type="checkbox" id="three" />Vegetables-sh 400 
-                  </label>
-                </div>
-                <div class="col-md-4">
-                    <p>Standard</p>
-                        <label for="one">
-                                <input type="checkbox" id="one" />Chicken-sh 450
-                              </label>
-                              <label for="two">
-                                <input type="checkbox" id="two" />Meat-sh 400
-                             </label>
-                             <label for="three">
-                               <input type="checkbox" id="three" />Vegetables-sh 350 
-                            </label>
-                </div>
-                <div class="col-md-4">
-                    <p>Small</p>
-                        <label for="one">
-                                <input type="checkbox" id="one"/>Chicken-sh 350
-                              </label>
-                              <label for="two">
-                                <input type="checkbox" id="two"/>Meat-sh 300
-                             </label>
-                             <label for="three">
-                               <input type="checkbox" id="three"/>Vegetables-sh 250
-                            </label>
-                </div>
-                </div>
             </div>
-          </div> <br> -->
-          <button id="submit" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">ORDER</button>
-       
-           <!-- <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="CHECKOUT">
+                 <div class="form-group">
+                        <label for="meatTopping">Choose your  meat topping</label>
+                        <select class="form-control" id="meattopping" style="background-color: transparent" width="auto">
+                            <option hidden>Choose your topping</option>
+                            <option>Chicken </option>
+                            <option>Beef </option>
+                            <option>Boerwors</option>
+                          </select>
+                          </div>
+                          <div class="form-group">
+                              <label for="vegetableTopping">Choose your  vegetable topping</label>
+                              <select class="form-control" id="veggtopping" style="background-color: transparent" width="auto">
+                                  <option hidden>Choose your vegetable topping</option>
+                                  <option>Onions</option>
+                                  <option>Brocolli </option>
+                                  <option>Spinach</option>
+                                </select>
+                                </div>
+                     <br><br>
+                     <button id="order" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">ORDER</button>
+                     <button id="delivery" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">DELIVERY</button><br><br>
+                     <button id="submit" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">CHECKOUT</button>
                    <br><br>
                <div id="textPrice">
                     <p id="pz">Pizza Size:</p>
-                    <p id="ty">Type:</p>
-                    <p id="fl">Flavour:</p>
-                    <p id="cr">Crust:</p>
-                    <p id="tp">Topping:</p>
-                    <p id="tc">Total Cost:</p>
+                    <p id="cr">Crust</p>
+                    <p id="mt">Meat Topping:</p>
+                    <p id="vt">Vegetable Topping</p>
+                    <p id="tc">Total Cost</p>
+                    
                 </div><br><br>
-    
-                <div class="row">
-                     <div class="col-md-6">
-                           
-                     </div>
-                     <div class="col-md-6">
-                        <button id="delivery" type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg">DELIVERY</button>
-                    </div>
-                </div> -->
+                        
+                    
+                
         
             </form>
         </div>
