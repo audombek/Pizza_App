@@ -16,7 +16,7 @@ var pizzavegetableTopping=["Onion","Brocolli","Spinach"];
 
 order.prototype.cost = function(){
     if (this.size === pizzaSize[0]){ 
-        this.price += 1000;
+        this.price += 900;
     }
     else if (this.size === pizzaSize[1]){
         this.price +=800;
@@ -76,15 +76,16 @@ $(document).ready(function () {
         var newPizzaOrder = new order(sizes, crusts,meatTopping,vegetableTopping );
         newPizzaOrder.cost();
         totalCosts.push(newPizzaOrder.price);
+
         $("#pz").text(sizes);
         $("#cr").text(crusts);
-        $("#mt").text(meattopping);
-        $("#vt").text(veggtopping);
+        $("#mt").text(meatTopping);
+        $("#vt").text(vegetableTopping); 
         $("#tc").text(newPizzaOrder.totalCost());
  
         
         $("button#order").click(function(){
-            alert("Your Order has been received.Please click delivery and if you want your pizza to be delivered.");
+            alert("The total cost of your order is"+" "+totalCosts +" " +" Please click on delivery if you want your order delivered.");
         $("button#delivery").click(function(){
             prompt("Enter your location");
             alert("Your delivery charge is ksh 150.");
